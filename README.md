@@ -41,5 +41,5 @@ The possible parameters in the input file:
 **\***: Only needed when it runs in Test mode, not used in Training mode
 
 # The flowchart of the simulations
-![alt text](https://github.com/rdnrtms/coc_nn_torch/CodeFlowchart.png?raw=true)
+![GitHub Logo](/images/CodeFlowchart.png)
 
