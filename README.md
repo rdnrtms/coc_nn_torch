@@ -1,7 +1,7 @@
 # Coupled Oscillatory Circuits as Neural Networks
 
 # Installation
-*- Optional: Create a virtual environment*
+- *Optional: Create a virtual environment*
 - Clone repo `git clone https://github.com/rdnrtms/coc_nn_torch/`
 - Install prerequsite packages with `pip install requirements.txt` 
 
