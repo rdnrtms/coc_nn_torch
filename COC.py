@@ -8,7 +8,7 @@ import torch.optim as optim
 import matplotlib.pyplot as plt
 
 from typing import Tuple
-from torchdiffeq import odeint # _adjoint as odeint
+from torchdiffeq import odeint
 from abc import ABC, abstractmethod
 from math import pi
 from utilities import write_tensor, timeit, ProgressBar
@@ -58,6 +58,12 @@ class COCAbstract(ABC):
         # Check if the class has batchNum attribute and if it doesn't set it to 1
         if not hasattr(self, "batchNum"):
             self.batchNum = 1
+            
+        # Initialise input amplitudes and frequencies if they are not present 
+        if not hasattr(self, "A"):
+            self.A = 0.0
+        if not hasattr(self, "f"):
+            self.f = 0.0
                     
         # Sets the device for the whole simulation
         if hasattr(self, "gpu"):

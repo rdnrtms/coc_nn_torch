@@ -11,12 +11,12 @@ torch.set_num_threads(8)
 
 dateString = str(datetime.datetime.now())
 batchNum = 32
-epochs = 200
+epochs = 2001
 patternNum = 2
 type = "full"
 
 COC = COCPatternRecognition(dateString, batchNum, epochs, type, patternNum)
-COC.build_from_file("49osc_2pattern.in")
+COC.build_from_file("./default.in")
 start = time()
 COC.run_simulation()
 end = time()
@@ -25,7 +25,6 @@ COC.plot_LC_w_params("MLResult_Loss_")
 COC.couplings_to_file("MLparams_")
 COC.save_results("MLResult_data_")
 COC.plot_graph("Graph_")
-# COC.test_network()
 
 if not COC.save:
     plt.show()
