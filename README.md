@@ -1,5 +1,12 @@
 # Coupled Oscillatory Circuits as Neural Networks
 
+# Installation
+*- Optional: Create a virtual environment*
+- Clone repo `git clone https://github.com/rdnrtms/coc_nn_torch/`
+- Install prerequsite packages with `pip install requirements.txt` 
+
+# Project description
+
 This project is intended for testng out trainable, Coupled Oscillatory Networks, where the goal is to learn the parameters of an ODE, which describes the system. The underlying dynamics for *n* oscillators and *m* inverters is as follows:
 
 <img src="https://latex.codecogs.com/svg.image?\frac{dv}{dt}&space;=&space;\frac{1}{RC}\Big(\textbf{P}v&space;-&space;v\Big)&space;&plus;&space;\frac{1}{R_cC}\textbf{C}'v&space;&plus;&space;\frac{1}{R_iC}\textbf{B}'v" />
