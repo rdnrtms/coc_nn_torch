@@ -19,7 +19,7 @@ This project contains three python files and a default input file:
 - **sim.py**: example run of a system
 - **default.in**: this is a default architecture with 5 oscillators, no inputs and running on cpu
 
-The description of the input file is as follows:
+The possible parameters in the input file:
 - **oscNum (integer)**: number of oscillators in the system
 - **R (real)**: Resistances between inverters inside a ring-oscillator (in \Ohm)
 - **C (real)**: Capacitances between the inverters inside a ring-oscillator (in F)
