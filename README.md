@@ -3,7 +3,7 @@
 # Installation
 - *Optional: Create a virtual environment*
 - Clone repo `git clone https://github.com/rdnrtms/coc_nn_torch/`
-- Install prerequsite packages with `pip install requirements.txt` 
+- Install prerequisite packages with `pip install requirements.txt` 
 
 # Project description
 
