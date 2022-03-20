@@ -1,0 +1,11 @@
+oscNum      = 5
+R           = 1.0E+3
+C           = 1.0E-12
+Rc          = 5.0E+4
+Ri          = 5.0E+4
+tBegin      = 0.0
+tEnd        = 500.0E-9
+tNsamples   = 3000
+save        = 1
+saveFolder  = ./PatternRecognitionSimResults/
+gpu         = 1
