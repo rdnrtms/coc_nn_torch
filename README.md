@@ -5,6 +5,7 @@
 - Separation of loss functions from the model class to a separate class
 
 # Installation
+This project needs Python 3
 - *Optional: Create a virtual environment*
 - Clone repo `git clone https://github.com/rdnrtms/coc_nn_torch/`
 - Install prerequisite packages with `pip install requirements.txt` 
