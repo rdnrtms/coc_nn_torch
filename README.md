@@ -1,5 +1,9 @@
 # Coupled Oscillatory Circuits as Neural Networks
 
+# Planned features
+- Implementation of nearest neighbour coupling on a grid instead of a fully connected network
+- Separation of loss functions from the model class to a separate class
+
 # Installation
 - *Optional: Create a virtual environment*
 - Clone repo `git clone https://github.com/rdnrtms/coc_nn_torch/`
