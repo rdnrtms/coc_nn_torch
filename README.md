@@ -41,7 +41,7 @@ The possible parameters in the input file:
 - **tEnd (real)**: The end of the simulation (in s)
 - **tNsamples (integer)**: Number of datapoints to store for an integration
 - **save (0 or 1)**: If save is 1, the results are saved, otherwise just plotted
-- **saveFolder (string)**: here is a unique folder will be created with all the simulation-related files
+- **saveFolder (string)**: unique folder will be created here with all the simulation-related files
 - **method (string)**: integration method -> "implicit" = implicit Adams-Bashford_Moulton method (for stiff systems), default: dopri5, rk 4-5, ode45 (more on this at github.com/rtqichen/torchdiffeq)
 - **inputs (list of -1s and 1s)**: vector <- inputs for the system, useful when we know the inputs beforehand (1s: 0 phase shift, -1s: pi phase shift)
 - **C (list of reals)\***: it will be converted to matrix, but it is a coupling matrix described in the building process 
