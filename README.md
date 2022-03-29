@@ -3,6 +3,8 @@
 # Planned features
 - Implementation of nearest neighbour coupling on a grid instead of a fully connected network
 - Separation of loss functions from the model class to a separate class
+- Docstrings for every function and class
+- Simulation separation from the model classes
 
 # Installation
 This project needs Python 3
