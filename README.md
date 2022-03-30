@@ -5,6 +5,7 @@
 - Separation of loss functions from the model class to a separate class
 - Docstrings for every function and class
 - Separation of the simulation from the model classes
+- Rework the simulation to use external (user-defined) train and test sets
 
 # Installation
 This project needs Python 3
